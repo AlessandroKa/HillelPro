@@ -9,6 +9,6 @@ console.log('Куб этого значения: ' + count ** 3);
 
 const tempCelsium = 25;
 let tempFahrenheit = tempCelsium * 9 / 5 + 32;
-console.log(tempCelsium + '\u00B0C ' + 'равно ' + tempFahrenheit + '\u00B0F')
+console.log(tempCelsium + '\u00B0' + 'C' + ' равно ' + tempFahrenheit + '\u00B0' + 'F')
 let editCelsium = ((tempFahrenheit - 32) * 5) / 9
-console.log(tempFahrenheit + '\u00B0F ' + 'равно ' + editCelsium + '\u00B0C')
+console.log(tempFahrenheit + '\u00B0' + 'F' + ' равно ' + editCelsium + '\u00B0' + 'C')
