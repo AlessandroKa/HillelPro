@@ -1,15 +1,12 @@
-let arr = [4,2,34,4,1,12,1,4];
+let arr = [4, 2, 34, 4, 1, 12, 1, 4];
+let newArr = [];
 
-let uniq = [];
-for (let item of arr) {
-    uniq[item] = (uniq[item] || 0) + 1;
-}
-let arr2 = [];
-for (let i in arr) {
-    if (uniq[arr[i]] > 1) {
-        arr2.push(arr[i]);
-        uniq[arr[i]] = 0;
+for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+        if (arr[i] === arr[j] && !newArr.includes(arr[i])) {
+            newArr.push(arr[i]);
+        }
     }
-}
+};
 
-console.log(arr2);
+console.log(newArr);
