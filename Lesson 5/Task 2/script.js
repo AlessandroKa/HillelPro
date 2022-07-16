@@ -1,10 +1,8 @@
 let findPalindrome = prompt('Write word of interest').toLowerCase();
 
 function palindrome() {
-    let arrPalindrome = findPalindrome.split('');
-    let copyPalindrome = arrPalindrome.concat([]); // Создаем дубликат массива для метода reverse
-    let intReverses = copyPalindrome.reverse();
-    let truePalindrome = intReverses.join('')
+    let arrPalindrome = findPalindrome.split('').reverse();
+    let truePalindrome = arrPalindrome.join('')
 
     if (findPalindrome === truePalindrome) {
         alert(`${findPalindrome} is palindrome`);
@@ -16,4 +14,4 @@ function palindrome() {
 }
 
 let bool = palindrome();
-console.log(typeof bool)
+console.log(bool)
