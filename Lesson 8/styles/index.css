@@ -1,0 +1,20 @@
+.table {
+    margin: 0 auto;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.tableCell {
+    border: 2px solid;
+    padding: 5px;
+}
+
+.tableImage {
+    width: 120px;
+    height: 180px;
+    margin: 8px ;
+}
+
+.tableTitle {
+    border: 2px solid;
+}
