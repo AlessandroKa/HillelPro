@@ -25,13 +25,13 @@ function guessingGame(gameAttemps) {
 };
 
 let game2 = guessingGame(5);
-game2(1);
-game2(8);
+game2(3);
+game2(4);
 game2(5);
 game2(7);
 game2(0);
 game2(10);
 game2(9);
 game2(6);
-game2(4);
+game2(8);
 game2(2);
