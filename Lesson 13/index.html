@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <form id="form" onsubmit="return false;">
+        <h1 class="title">Заметки</h1>
+        <label class="formLabel">Название заметки</label>
+        <input class="formInput" name="name" type="text" id="inputName" placeholder="Название" />
+        <label class="formLabel">Содержание заметки</label>
+        <input class="formInput" name="text" type="text" id="inputText" placeholder="Содержание" />
+        <button id="submitButton" disabled>Создать заметку</button>
+    </form>
+    <div id="after"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
